@@ -30,7 +30,7 @@ The patterns and tooling that survived A(I)DEN's daily production grind, extract
 |---|---|
 | 🏛️ **[aiden-overview](https://github.com/andy-bttryzn/aiden-overview)** | The architectural cross-section. Three operational lanes, multi-agent dispatch, SOP corpus, voice calibration, CDP automation, Drive sync. |
 | 📘 **[vendor-ops-playbook](https://github.com/andy-bttryzn/vendor-ops-playbook)** | 14-chapter operating manual for running vendor-heavy operations. Read [chapter 1](https://github.com/andy-bttryzn/vendor-ops-playbook/blob/main/chapters/01-the-vendor-ops-model.md) for the mental model, [chapter 12](https://github.com/andy-bttryzn/vendor-ops-playbook/blob/main/chapters/12-30-day-adoption-guide.md) for a week-by-week adoption plan. |
-| 🧰 **[vendor-brief-renderer](https://github.com/andy-bttryzn/vendor-brief-renderer)** | Structured `vendor.json` in, 10-section Markdown brief out. Includes a CSV adapter showing the data-source boundary. |
+| 🧰 **[vendor-brief-renderer](https://github.com/andy-bttryzn/vendor-brief-renderer)** | Structured `vendor.json` in, 10-section Markdown brief out. Includes a CSV adapter showing the data-source boundary. **[Live demo](https://andy-bttryzn.github.io/vendor-brief-renderer/demo/).** |
 | ✉️ **[gworkspace-helper](https://github.com/andy-bttryzn/gworkspace-helper)** | Google Workspace CLI with opinionated draft validation. The reason no LLM-toned cold opens reach the customers. |
 | 🗂️ **[monday-helper](https://github.com/andy-bttryzn/monday-helper)** | monday.com CLI + Node library. Auth, reads, writes, opt-in dedup. |
 | 📚 **[docs-mirror-scraper](https://github.com/andy-bttryzn/docs-mirror-scraper)** | Pull any docs site into a local Markdown mirror for offline / LLM-context use. |
