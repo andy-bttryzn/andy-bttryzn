@@ -18,7 +18,7 @@ Current project: **A(I)DEN**, an autonomous vendor operations platform built on 
 
 **Background:** Vendor ops + lead-gen marketplace (solar, roofing, windows, bathroom). Previously built lead routing and affiliate tracking tooling. Now all of it runs on agentic infrastructure.
 
-Most of the production code is private. Happy to walk through architecture in conversation.
+Most of the production code is private. Public architecture overview at **[aiden-overview](https://github.com/andy-bttryzn/aiden-overview)**. Happy to walk through more in conversation.
 
 ---
 
@@ -28,6 +28,7 @@ The patterns and tooling that survived A(I)DEN's daily production grind, extract
 
 | | |
 |---|---|
+| 🏛️ **[aiden-overview](https://github.com/andy-bttryzn/aiden-overview)** | The architectural cross-section. Three operational lanes, multi-agent dispatch, SOP corpus, voice calibration, CDP automation, Drive sync. |
 | 📘 **[vendor-ops-playbook](https://github.com/andy-bttryzn/vendor-ops-playbook)** | 14-chapter operating manual for running vendor-heavy operations. Read [chapter 1](https://github.com/andy-bttryzn/vendor-ops-playbook/blob/main/chapters/01-the-vendor-ops-model.md) for the mental model, [chapter 12](https://github.com/andy-bttryzn/vendor-ops-playbook/blob/main/chapters/12-30-day-adoption-guide.md) for a week-by-week adoption plan. |
 | 🧰 **[vendor-brief-renderer](https://github.com/andy-bttryzn/vendor-brief-renderer)** | Structured `vendor.json` in, 10-section Markdown brief out. Includes a CSV adapter showing the data-source boundary. |
 | ✉️ **[gworkspace-helper](https://github.com/andy-bttryzn/gworkspace-helper)** | Google Workspace CLI with opinionated draft validation. The reason no LLM-toned cold opens reach the customers. |
